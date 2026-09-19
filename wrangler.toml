@@ -9,7 +9,7 @@
 #  Production bindings and secrets should be configured in Cloudflare.
 # =================================================================
 
-name = "iori-nav"
+name = "navshot"
 compatibility_date = "2025-09-06"
 pages_build_output_dir = "public"
 
@@ -19,17 +19,17 @@ command = "npm run build:css"
 [[d1_databases]]
 binding = "NAV_DB"
 database_name = "book"
-database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+database_id = "6d783ccc-d1bf-4fd0-bec1-49c74c4dd90a"
 
 [[kv_namespaces]]
 binding = "NAV_AUTH"
-id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"
+id = "e19794fe335f4027b29ec11a26d4c193"
 
 [vars]
 ENABLE_PUBLIC_SUBMISSION = false
-SITE_NAME = "灰色轨迹"
-SITE_DESCRIPTION = "一个优雅、快速、易于部署的书签（网址）收藏与分享平台，完全基于 Cloudflare 全家桶构建"
-FOOTER_TEXT = "曾梦想仗剑走天涯"
+SITE_NAME = "好运来"
+SITE_DESCRIPTION = "创新源于一种感觉"
+FOOTER_TEXT = "从泥潭中爬出来的创新"
 ICON_API = "https://faviconsnap.com/api/favicon?url="
 AI_REQUEST_DELAY = "1500"
 
