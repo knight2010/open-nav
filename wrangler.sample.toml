@@ -19,11 +19,11 @@ command = "npm run build:css"
 [[d1_databases]]
 binding = "NAV_DB"
 database_name = "book"
-database_id = "6d783ccc-d1bf-4fd0-bec1-49c74c4dd90a"
+database_id = "xxxx"
 
 [[kv_namespaces]]
 binding = "NAV_AUTH"
-id = "e19794fe335f4027b29ec11a26d4c193"
+id = "ggg"
 
 [vars]
 ENABLE_PUBLIC_SUBMISSION = false
